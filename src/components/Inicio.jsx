@@ -14,12 +14,12 @@ const Inicio = () => {
         <meta property="og:description" content="No soy un robot, soy un creador apasionado por la tecnología. Diseño páginas web seguras, autogestionables y fáciles de usar." />
         <meta property="og:url" content="https://robercolmenares.com/" />
         <meta property="og:type" content="website" />
-        <meta property="og:image" content="https://robercolmenares.com/assets/preview.jpg" />
+        <meta property="og:image" content="https://robercolmenares.com/assets/preview.png" />
 
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="Rober Colmenares - Full Stack Developer y Téc. Ciberseguridad" />
         <meta name="twitter:description" content="No soy un robot, soy un creador apasionado por la tecnología. Diseño páginas web seguras, autogestionables y fáciles de usar." />
-        <meta name="twitter:image" content="https://robercolmenares.com/assets/preview.jpg" />
+        <meta name="twitter:image" content="https://robercolmenares.com/assets/preview.png" />
       </Helmet>
 
       {/* Contenido visible de la página */}
