@@ -1,0 +1,38 @@
+.container {
+  max-width: 700px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #374151; /* gris oscuro */
+}
+
+.title {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  color: #111827; /* negro intenso */
+}
+
+.text {
+  font-size: 1.125rem;
+  line-height: 1.6;
+}
+
+.highlightBlue {
+  color: #2563eb;
+  font-weight: 600;
+}
+
+.highlightGreen {
+  color: #16a34a;
+  font-weight: 600;
+}
+
+
+strong{
+  border:0;
+  padding: 0;
+  margin:0;
+  font-weight: 400;
+}
