@@ -5,7 +5,7 @@ import { MdEmail } from 'react-icons/md';
 
 const Contacto = () => {
   return (
-    <div className='container-glass mb-10'>
+    <div className='container-glass mb-15'>
       <section className='section-glass'>
         <div>
           <p className='Robot text-2xl mb-10'>Contáctame</p>

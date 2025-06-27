@@ -132,7 +132,7 @@ const Habilidades = () => {
         <div className='md:flex md:items-center'>
           <div className='text-xs space-y-3 md:w-1/3 md:space-y-6 md:text-lg'>
             <p className='Robot text-xl text-wave'>Desarrollador Web Full Stack </p> 
-            <p>con experiencia en la creación de aplicaciones web completas, utilizando tecnologías modernas y mejores prácticas.</p>
+            <p>Experiencia en la creación de aplicaciones web completas, utilizando tecnologías modernas y mejores prácticas.</p>
             <p>Capaz de gestionar proyectos de principio a fin, desde el desarrollo del frontend y backend hasta la implementación del patrón MVC. Integración y consumo de APIs REST, manejo de autenticación segura mediante JWT, y diseño responsivo con enfoque en UX/UI para ofrecer interfaces intuitivas y atractivas.</p>
           </div>
 
