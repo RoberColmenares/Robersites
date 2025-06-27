@@ -5,10 +5,10 @@ import { MdEmail } from 'react-icons/md';
 
 const Contacto = () => {
   return (
-    <div className='container-glass mb-15'>
-      <section className='section-glass'>
+    <div className='container-glass mb-20'>
+      <section className='section-glass '>
         <div>
-          <p className='Robot text-2xl mb-10'>Contáctame</p>
+          <p className='Robot text-2xl '>Contáctame</p>
 
           <div className='flex flex-col gap-10 md:flex-row'>
 
@@ -55,7 +55,7 @@ const Contacto = () => {
                   placeholder='Descripción'
                 />
                 <button
-                  className='btn text-shine'
+                  className='btn text-shine mb-15'
                   type='submit'
                 >
                   Enviar mensaje
