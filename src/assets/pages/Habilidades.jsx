@@ -127,7 +127,7 @@ const Habilidades = () => {
   return (
     <div className='container-glass mb-10'>
       <section className='section-glass'>
-        <h2 className='Robot text-2xl mb-4'>HABILIDADES</h2>
+        <h2 className='Robot text-2xl mb-4 text-wave'>HABILIDADES</h2>
 
         <div className='md:flex md:items-center'>
           <div className='text-xs space-y-3 md:w-1/3 md:space-y-6 md:text-lg'>

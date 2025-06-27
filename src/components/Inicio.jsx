@@ -1,7 +1,7 @@
 import React from 'react';
 import { FaWhatsapp, FaGithub, FaLinkedin } from 'react-icons/fa';
-import { MdEmail } from 'react-icons/md';
-import img from '../assets/img/rbr.svg';
+import { FaDownload } from 'react-icons/fa';
+import img from '../assets/img/Rober2.png';
 import { Link } from 'react-router-dom';
 
 const Inicio = () => {
@@ -16,13 +16,11 @@ const Inicio = () => {
             <a href="https://wa.me/56912345678" target="_blank" rel="noopener noreferrer" className="hover:text-green-500 transition">
               <FaWhatsapp />
             </a>
-            <a href="mailto:tucorreo@gmail.com" className="hover:text-red-500 transition">
-              <MdEmail />
-            </a>
-            <a href="https://github.com/TuUsuario" target="_blank" rel="noopener noreferrer" className="hover:text-gray-400 transition">
+ 
+            <a href="https://github.com/RoberColmenares" target="_blank" rel="noopener noreferrer" className="hover:text-gray-400 transition">
               <FaGithub />
             </a>
-            <a href="https://www.linkedin.com/in/TuUsuario" target="_blank" rel="noopener noreferrer" className="hover:text-blue-400 transition">
+            <a href="https://www.linkedin.com/in/rober-colmenares-52a472284/" target="_blank" rel="noopener noreferrer" className="hover:text-blue-400 transition">
               <FaLinkedin />
             </a>
           </div>
@@ -36,6 +34,16 @@ const Inicio = () => {
             <img src={img} alt="Rober" className="w-[220px] md:w-[350px]" />
             <h2 className="md:text-3xl ">Rober Colmenares</h2>
             <h1 className="md:text-2xl Robot">Full Stack Developer y Téc. Ciberseguridad</h1>
+             <div className="text-center mt-6">
+                <a
+                  href="/cv.pdf"
+                  download="CV_Rober_Colmenares.pdf"
+                  className=" btn text-shine flex flex-col items-center "
+                >
+                  <FaDownload className="text-lg" />
+                  cv
+                </a>
+              </div>
           </div>
 
           {/* Descripción */}

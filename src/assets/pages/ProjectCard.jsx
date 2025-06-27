@@ -12,7 +12,7 @@ const ProjectCard = () => {
   return (
     <div className='container-glass mb-20'>
       <section className='section-glass'>
-        <h2 className="Robot text-2xl mb-8">Proyectos Recientes</h2>
+        <h2 className="Robot text-2xl mb-8 text-wave">Proyectos Recientes</h2>
 
         <div className="md:flex md:flex-wrap">
           
