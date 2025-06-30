@@ -65,7 +65,7 @@ const Contacto = () => {
               </p>
 
               <div className="flex gap-6 justify-center mt-3 text-3xl md:mt-0">
-                <a href="https://wa.me/56912345678" target="_blank" rel="noopener noreferrer" className="hover:text-green-500 transition">
+                <a href="https://wa.me/56979498944" target="_blank" rel="noopener noreferrer" className="hover:text-green-500 transition">
                   <FaWhatsapp />
                 </a>
 
