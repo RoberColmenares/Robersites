@@ -7,6 +7,7 @@ import img from '../../assets/img/pizza.png';
 import img2 from '../../assets/img/perrunos.png';
 import img3 from '../../assets/img/villalobos.png';
 import img4 from '../../assets/img/joyeria.png';
+import { NavLink } from "react-router-dom";
 
 const ProjectCard = () => {
   return (
@@ -84,6 +85,10 @@ const ProjectCard = () => {
           </figure>
 
         </div>
+      <div>
+        <p className="mt-10">¿Quieres un proyecto como este o algo 100% personalizado?</p>
+        <NavLink className="btn text-shine w-max mx-auto  mt-4 rounded hover:bg-white/20 transition flex justify-center items-center gap-2" to={'/zona/contacto'}>Contactame</NavLink>
+      </div>
       </section>
     </div>
   );

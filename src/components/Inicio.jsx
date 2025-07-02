@@ -1,5 +1,3 @@
-import React from "react";
-import { Helmet } from "react-helmet";
 import { FaWhatsapp, FaGithub, FaLinkedin, FaDownload } from "react-icons/fa";
 import img from "../assets/img/Rober2.png";
 import { Link } from "react-router-dom";
@@ -7,20 +5,7 @@ import { Link } from "react-router-dom";
 const Inicio = () => {
   return (
     <>
-      {/* Meta tags para compartir en redes */}
-      <Helmet>
-        <title>Rober Colmenares - Full Stack Developer y Téc. Ciberseguridad</title>
-        <meta property="og:title" content="Rober Colmenares - Full Stack Developer y Téc. Ciberseguridad" />
-        <meta property="og:description" content="No soy un robot, soy un creador apasionado por la tecnología. Diseño páginas web seguras, autogestionables y fáciles de usar." />
-        <meta property="og:url" content="https://robercolmenares.com/" />
-        <meta property="og:type" content="website" />
-        <meta property="og:image" content="https://robercolmenares.com/assets/preview.png" />
 
-        <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="Rober Colmenares - Full Stack Developer y Téc. Ciberseguridad" />
-        <meta name="twitter:description" content="No soy un robot, soy un creador apasionado por la tecnología. Diseño páginas web seguras, autogestionables y fáciles de usar." />
-        <meta name="twitter:image" content="https://robercolmenares.com/assets/preview.png" />
-      </Helmet>
 
       {/* Contenido visible de la página */}
       <div className="flex justify-center items-center min-h-screen p-5">
