@@ -4,7 +4,7 @@ import { FaLaptopCode, FaBriefcase, FaShoppingCart, FaBuilding, FaRocket } from 
 
 const Servicios = () => {
   return (
-    <div className='container-glass mb-10'>
+    <div className='container-glass mb-15'>
       <section className='section-glass'>
         <div>
           <p className='Robot text-2xl mb-10 text-yellow-400 text-wave'>Servicios</p>

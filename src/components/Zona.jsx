@@ -7,11 +7,11 @@ import '../App.css';
 
 // Lista de íconos y rutas
 const icons = [
-  { to: '/zona/habilidades', Icon: FaTools },
-  { to: '/zona/proyectos', Icon: FaProjectDiagram },
-  { to: '/zona/servicios', Icon: FaConciergeBell },
-  { to: '/zona/contacto', Icon: FaEnvelope },
-  { to: '/', Icon: FaHome },
+  { to: '/zona/habilidades', Icon: FaTools, name:"Habilidades" },
+  { to: '/zona/proyectos', Icon: FaProjectDiagram, name:"Proyectos" },
+  { to: '/zona/servicios', Icon: FaConciergeBell, name:"Servicios" },
+  { to: '/zona/contacto', Icon: FaEnvelope, name:"Contacto" },
+  { to: '/', Icon: FaHome, name:"inicio" },
 ];
 
 // Detectar si el dispositivo es táctil
@@ -61,19 +61,20 @@ const Zona = () => {
         ref={navRef}
         onMouseMove={!isTouchDevice ? handleMouseMove : undefined}
         onMouseLeave={!isTouchDevice ? handleMouseLeave : undefined}
-        className="text-2xl flex justify-center space-x-4 fixed bottom-4 w-max left-1/2 transform -translate-x-1/2 rounded-2xl z-50
+        className="text-3xl flex justify-center space-x-4 fixed bottom-6 w-max left-1/2 transform -translate-x-1/2 rounded-2xl z-50
           md:text-4xl md:space-x-7 md:px-10 md:py-6 text-white border-gray-400"
       >
-        {icons.map(({ to, Icon }, i) => (
-          <NavLink
-            key={to}
-            to={to}
-            style={{ transform: `scale(${!isTouchDevice ? scales[i] : 1})` }}
-            className="metallic-hover transition-transform duration-150"
-          >
-            <Icon />
-          </NavLink>
-        ))}
+      {icons.map(({ to, Icon, name }, i) => (
+        <NavLink 
+          key={to}
+          to={to}
+          style={{ transform: `scale(${!isTouchDevice ? scales[i] : 1})` }}
+          className="metallic-hover transition-transform duration-150 text-center flex flex-col items-center text-white"
+        >
+          <Icon className="text-2xl md:text-5xl" />
+          <span className="text-[0.7rem] md:text-base mt-2">{name}</span>
+        </NavLink>
+      ))}
       </nav>
     </div>
   );

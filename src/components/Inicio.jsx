@@ -68,6 +68,7 @@ const Inicio = () => {
               <h1 className="md:text-2xl Robot">
                 Full Stack Developer y Téc. Ciberseguridad
               </h1>
+              {/*
               <div className="text-center mt-6">
                 <a
                   href="/cv.pdf"
@@ -78,6 +79,7 @@ const Inicio = () => {
                   cv
                 </a>
               </div>
+              */}
             </div>
 
             {/* Descripción */}

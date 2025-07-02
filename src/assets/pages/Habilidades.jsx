@@ -125,7 +125,7 @@ const Habilidades = () => {
   }, [modalOpen]);
 
   return (
-    <div className='container-glass mb-10'>
+    <div className='container-glass mb-15'>
       <section className='section-glass'>
         <h2 className='Robot text-2xl mb-4 text-wave'>HABILIDADES</h2>
 
